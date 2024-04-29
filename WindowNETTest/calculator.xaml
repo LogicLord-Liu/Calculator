@@ -1,0 +1,28 @@
+﻿<Window x:Class="WindowNETTest.calculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowNETTest"
+        mc:Ignorable="d"
+        Title="calculator" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Center" Margin="10,10,10,0" VerticalAlignment="Top" Width="750" Height="70"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="497,364,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnEquals_Click"/>
+        <Button Content="A C" FontSize="21" HorizontalAlignment="Left" Width="100" Height="30" Margin="300,364,0,0" VerticalAlignment="Top" Click="BtnClear_Click"/>
+        <Button Content="7" FontSize="21" HorizontalAlignment="Left" Width="100" Height="30" Margin="105,103,595,302" VerticalAlignment="Top" Click="BtnInput_click"/>
+        <Button Content="8" FontSize="21" HorizontalAlignment="Left" Width="100" Height="30" VerticalAlignment="Top" Margin="300,103,400,0"  Click="BtnInput_click"/>
+        <Button Content="9" FontSize="21" HorizontalAlignment="Left" Margin="497,103,0,0" VerticalAlignment="Top" Width="100" Height="30"  Click="BtnInput_click" />
+        <Button Content="4" FontSize="21" HorizontalAlignment="Left" Margin="105,194,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnInput_click"/>
+        <Button Content="5" FontSize="21" HorizontalAlignment="Left" Margin="300,194,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnInput_click"/>
+        <Button Content="6" FontSize="21" HorizontalAlignment="Left" Margin="497,194,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnInput_click"/>
+        <Button Content="1" FontSize="21" HorizontalAlignment="Left" Margin="105,284,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnInput_click"/>
+        <Button Content="2" FontSize="21" HorizontalAlignment="Left" Margin="300,284,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnInput_click"/>
+        <Button Content="3" FontSize="21" HorizontalAlignment="Left" Margin="497,284,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnInput_click"/>
+        <Button Content="0" FontSize="21" HorizontalAlignment="Left" Margin="105,364,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnInput_click"/>
+        <Button Content="/" FontSize="21" HorizontalAlignment="Left" Margin="675,103,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnOperator_Click"/>
+        <Button Content="*" FontSize="21" HorizontalAlignment="Left" Margin="675,194,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnOperator_Click"/>
+        <Button Content="-" FontSize="21" HorizontalAlignment="Left" Margin="675,284,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnOperator_Click"/>
+        <Button Content="+" FontSize="21" HorizontalAlignment="Left" Margin="675,364,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnOperator_Click"/>
+    </Grid>
+</Window>
